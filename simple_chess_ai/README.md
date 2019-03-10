@@ -12,7 +12,6 @@ In simple words, computer plays chess based on calculations of all possible outc
 #### step 1:
 
 * create a tree of all possible moves possible at each turn
-
 * for the first turn if the computer chooses white
 * first moves possible are by `8 pawns + 2 knights` which is equal to	`8*2 + 2*2=20` possible moves by computer
 * in response the `opp player can also make 20 possible moves`
