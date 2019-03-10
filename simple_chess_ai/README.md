@@ -35,6 +35,6 @@
 * `assumes that best moves are made by opp`
 * `assumes that worst moves are made by computer itself`
 
-### step 3:
+### step 4:
 ### Apply alpha-beta pruning
 * applying alpha-beta pruning, makes processing lot more faster with lot less memory by elemenating useless branches.
