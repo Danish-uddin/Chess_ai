@@ -38,3 +38,6 @@
 ### step 4:
 ### Apply alpha-beta pruning
 * applying alpha-beta pruning, makes processing lot more faster with lot less memory by elemenating useless branches.
+
+Regards
+https://medium.freecodecamp.org/simple-chess-ai-step-by-step-1d55a9266977
