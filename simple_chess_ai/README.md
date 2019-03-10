@@ -17,6 +17,6 @@ In simple words, computer plays chess based on calculations of all possible outc
 * in response the `opp player can also make 20 possible moves`
 * (IT NOT JUST CALCULATES ITS OWN MOVES BUT ALSO THE OPP PLAYER'S MOVES)
 * and then evaluate(weights/marks) each move and choose the best one
-* thus for starting two moves in the game '1 by computer','1 by opp player' we have '20*20=400 possible cases/outcomes of different moves(to choose from)
+* thus for starting two moves in the game '1 by computer','1 by opp player' we have `20*20=400 possible cases`/outcomes of different moves(to choose from)
 * as the number of steps increases the nubmer of possible moves increases vastly
 * based on this it makes a huge tree of all those possible moves
