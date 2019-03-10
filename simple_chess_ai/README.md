@@ -20,7 +20,7 @@ In simple words, computer plays chess based on calculations of all possible outc
 * as the number of steps increases the nubmer of possible moves increases vastly
 * based on this it makes a huge tree of all those possible moves
 ### step 2:
-#### Use evaluation function
+#### Use evaluation functions
 * many evaluations like kings vulnerability, control over center e.t.c are all calculated and taken under consideration
 ### step 3:
 #### Apply minimax algorithm
@@ -31,3 +31,6 @@ In simple words, computer plays chess based on calculations of all possible outc
 * 3rd level-`comp`--max score
 * `assumes that best moves are made by opp`
 * `assumes worst moves made by computer itself`
+### step 4:
+#### Apply aplha-beta pruning
+* applying alpha-beta pruning makes processing lot more faster with lot less memory.
