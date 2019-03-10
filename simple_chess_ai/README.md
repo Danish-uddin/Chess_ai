@@ -7,7 +7,7 @@
 
 ### How computer plays chess?
 
-In simple words, computer plays chess based on calculations of all possible outcomes after making a particular move and then finally choosing the best move.
+* In simple words, computer plays chess based on calculations of all possible outcomes after making a particular move and then finally choosing the best move.
 
 ### step 1:
 #### Create a tree of all possible moves possible at each turn
