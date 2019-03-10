@@ -20,3 +20,17 @@
 * thus for starting two moves in the game 1 by computer,1 by opp player we have `20*20=400 possible cases`/outcomes of different moves(to choose from)
 * as the number of steps increases the number of possible moves increases vastly
 * based on this it makes a huge tree of all those possible moves
+
+### step 2:
+### Use evaluation functions
+* many evaluations like king's vulnerability ,control over center e.t.c are all made(calculated) and taken under consideration for the next move
+
+### step 3:
+### Apply minimax algorithm
+* apply minimax algorithm on the simplified tree(starting from the bottom)
+* each level on the tree is considered as players turn one after the other
+* 5th level-`comp`-choose max score
+* 4th level-`opp`--min score
+* 3rd level-`com`--max score ...
+* `assumes that best moves are made by opp`
+* `assumes that worst moves are made by computer itself`
