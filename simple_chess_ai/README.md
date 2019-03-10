@@ -26,8 +26,8 @@ In simple words, computer plays chess based on calculations of all possible outc
 #### Apply minimax algorithm
 * apply minimax algorithm on the simplified tree(starting from the bottom)
 * each level on the tree is considered as payers turns,one turn after the other
-5th level-`comp`--choose max score
-4th level-`opp`---min score
-3rd level-`comp`--max score
-`assumes that best moves are made by opp`
-`assumes worst moves made by computer itself`
+* 5th level-`comp`--choose max score
+* 4th level-`opp`---min score
+* 3rd level-`comp`--max score
+* `assumes that best moves are made by opp`
+* `assumes worst moves made by computer itself`
